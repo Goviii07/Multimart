@@ -3,20 +3,13 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import products from '../assets/data/products';
-
 import { Col, Container, Row } from "reactstrap";
-
 import heroImg from '../assets/images/hero-img.png';
 import Helmet from "../components/Helmet/Helmet";
-
 import ProductsList from "../components/UI/ProductsList";
 import Services from "../services/Services";
-
 import counterImg from '../assets/images/counter-timer-img.png';
 import "../styles/home.css";
-
-//import Clock from "../components/UI/Clock";
-
 import Clock from "../components/UI/Clock";
 const Home = () => {
 
